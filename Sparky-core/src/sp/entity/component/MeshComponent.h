@@ -3,7 +3,7 @@
 #include "Component.h"
 
 #include "sp/Common.h"
-#include <sp/graphics/Mesh.h>
+#include "sp/graphics/Mesh.h"
 
 namespace sp { namespace entity { namespace component {
 
