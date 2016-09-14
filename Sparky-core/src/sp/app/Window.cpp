@@ -57,7 +57,15 @@ namespace sp {
 
 		Renderer::Init();
 		
+#ifdef SP_PLATFORM_WIN32
 		SetTitle(m_Title);
+#endif
+		return true;
+	}
+
+	bool Window::PlatformInit()
+	{
+		// TODO: implement properly
 		return true;
 	}
 	
@@ -79,6 +87,11 @@ namespace sp {
 #ifdef SP_PLATFORM_WIN32
 		audio::SoundManager::Update();
 #endif
+	}
+
+	void Window::PlatformUpdate()
+	{
+		// TODO: properly implement
 	}
 
 	bool Window::Closed() const

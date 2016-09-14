@@ -448,6 +448,7 @@
     <ClCompile Include="src\sp\platform\android\AndroidFileSystem.cpp" />
     <ClCompile Include="src\sp\platform\android\AndroidInput.cpp" />
     <ClCompile Include="src\sp\platform\android\AndroidLog.cpp" />
+    <ClCompile Include="src\sp\platform\android\AndroidMemoryManager.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\sp\app\Application.h">

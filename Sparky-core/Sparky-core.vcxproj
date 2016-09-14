@@ -364,6 +364,7 @@ xcopy /f /y $"(SolutionDir)Dependencies\OpenAL\bin\x86\OpenAL32.dll" "$(Solution
     <ClCompile Include="src\sp\platform\android\AndroidFileSystem.cpp" />
     <ClCompile Include="src\sp\platform\android\AndroidInput.cpp" />
     <ClCompile Include="src\sp\platform\android\AndroidLog.cpp" />
+    <ClCompile Include="src\sp\platform\android\AndroidMemoryManager.cpp" />
     <ClCompile Include="src\sp\platform\directx\DXFramebufferDepth.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Tegra-Android'">true</ExcludedFromBuild>
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Emscripten|Tegra-Android'">true</ExcludedFromBuild>
